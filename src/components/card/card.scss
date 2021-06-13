@@ -1,0 +1,83 @@
+.btnWrap{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 60%;
+  margin: 10px 10px;
+}
+
+.wrapCard {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 75%;
+  margin: 0 auto;
+  justify-content: center;
+.MuiCardMedia-root{
+  background-size: 100% 100% !important;
+}
+  .wrapPokemon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .pokemon__type{
+    padding: 5px;
+  }
+  .wrapName{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .wrapTypes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .types__item{
+    padding: 5px;
+    margin-right: 20px;
+    border-radius: 10px;
+  }
+}
+
+.modal{
+  margin-top: 20px;
+}
+.react-responsive-modal-modal{
+  img{
+    width: 150px;
+    height: 150px;
+  }
+  p{
+    text-align: center;
+
+  }
+.wrapImage{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+}
+.wrapTypeItem{
+  display: flex;
+  background: linear-gradient(to right, orange, blue);
+  align-items: center;
+  width: 50%;
+  flex-wrap: wrap;
+  justify-content: center;
+div{
+  margin-right: 10px;
+  border: 1px solid black;
+  width: 150px;
+  text-align: center;
+}
+}
+.MuiTableContainer-root{
+  width: 50% !important;
+  overflow: hidden !important;
+}
+

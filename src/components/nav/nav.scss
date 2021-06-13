@@ -1,0 +1,42 @@
+$bcg-color: #6f6fff;
+.navBar {
+  width: 100%;
+  height: 50px;
+  background: linear-gradient(to right, blue, orange);
+  display: flex;
+  justify-content: space-around;
+  border-bottom: 4px solid red;
+  align-items: center;
+
+  .navBar__title a {
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: transparent;
+    -webkit-background-clip: text;
+    background-image: linear-gradient(to right, yellow, orange);
+  }
+.navBar__search{
+  margin-bottom: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  Button{
+    margin-top: 10px;
+  }
+
+}
+  .MuiFormLabel-root {
+   color: black;
+  }
+}
+.search__type{
+width: 50px;
+  text-align: center;
+  padding: 5px;
+  margin-right: 20px;
+  border-radius: 10px;
+  margin: 0 auto;
+  margin-bottom: 10px;
+}
